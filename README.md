@@ -6,7 +6,7 @@ There is no product code here.
 | Path | What GitHub does with it |
 | :--- | :--- |
 | [`profile/README.md`](profile/README.md) | Rendered on [github.com/Edge-Center](https://github.com/Edge-Center) above the repository list |
-| [`profile/assets/`](profile/assets) | Hero artwork, one file per colour scheme, self-contained SVG |
+| [`profile/assets/`](profile/assets) | Hero artwork, one file per color scheme, self-contained SVG |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Shown when someone opens an issue or a pull request in any repository without its own copy |
 | [`SECURITY.md`](SECURITY.md) | Backs the Security tab in those repositories |
 | [`SUPPORT.md`](SUPPORT.md) | Linked from the issue chooser |

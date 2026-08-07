@@ -5,7 +5,7 @@ keeps the issue trackers usable.
 
 ## The code in this organization
 
-Bugs, unexpected behaviour and feature requests for the Terraform provider, the
+Bugs, unexpected behavior and feature requests for the Terraform provider, the
 Go SDKs, the Kubernetes components and the plugins go into the issue tracker of
 the repository they belong to. Use the templates - a version number and a
 reproducer are what turn a report into a fix.

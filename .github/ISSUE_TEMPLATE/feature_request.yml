@@ -19,7 +19,7 @@ body:
   - type: textarea
     id: proposal
     attributes:
-      label: Proposed behaviour
+      label: Proposed behavior
       description: How it would look. For the Terraform provider, sketch the configuration.
       render: hcl
     validations:

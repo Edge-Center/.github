@@ -89,7 +89,7 @@ helm repo add edgecenter https://edge-center.github.io/ec-helm-charts.github.io/
 
 <div align="center">
 
-**[Developer docs](https://github.com/Edge-Center/edgecenter-docs)** and the [full map of 22 repositories](https://github.com/Edge-Center/edgecenter-docs/blob/main/docs/repository-map.md) &nbsp;|&nbsp; [Contributing](https://github.com/Edge-Center/.github/blob/main/CONTRIBUTING.md) &nbsp;|&nbsp; [Security](https://github.com/Edge-Center/.github/blob/main/SECURITY.md)
+**[Developer docs](https://github.com/Edge-Center/edgecenter-docs)** and the [full repository map](https://github.com/Edge-Center/edgecenter-docs/blob/main/docs/repository-map.md) &nbsp;|&nbsp; [Contributing](https://github.com/Edge-Center/.github/blob/main/CONTRIBUTING.md) &nbsp;|&nbsp; [Security](https://github.com/Edge-Center/.github/blob/main/SECURITY.md)
 
 [edgecenter.ru](https://edgecenter.ru) &nbsp;|&nbsp; [Cloud](https://edgecenter.ru/cloud) &nbsp;|&nbsp; [Knowledge base](https://edgecenter.ru/knowledge-base) &nbsp;|&nbsp; [API reference](https://apidocs.edgecenter.ru)
 

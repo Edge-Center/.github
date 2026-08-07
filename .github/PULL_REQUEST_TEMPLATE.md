@@ -10,8 +10,8 @@ Tests, manual steps, or the plan and apply output for a provider change.
 ## Checklist
 
 - [ ] Commits are signed and the branch shows `Verified` on GitHub
-- [ ] `make lint` and `make test` pass locally
-- [ ] Tests cover the changed behaviour
+- [ ] The repository's lint and test targets pass locally
+- [ ] Tests cover the changed behavior
 - [ ] Documentation regenerated with `make docs` if a schema changed
 - [ ] The diff contains only what this change needs
 - [ ] Breaking changes are called out below
