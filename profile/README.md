@@ -21,6 +21,8 @@
 | **Block storage**<br>`edgecenter_volume` | **DDoS Protection**<br>`edgecenter_protection_resource` | **Object Storage**<br>`edgecenter_storage_s3` |
 | **Security groups**<br>`edgecenter_securitygroup` | **Certificates**<br>`edgecenter_cdn_sslcert` | **Monitoring**<br>`edgecenter_rmon_check_http` |
 
+All of it ships from one repository: [**terraform-provider-edgecenter**](https://github.com/Edge-Center/terraform-provider-edgecenter) - source, releases and the issue tracker. The reference for every resource and data source is on the [Terraform Registry](https://registry.terraform.io/providers/Edge-Center/edgecenter/latest/docs).
+
 ## Up and running
 
 ```hcl
