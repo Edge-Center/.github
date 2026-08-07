@@ -1,0 +1,63 @@
+name: Bug report
+description: Something behaves differently from what is documented
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before filing, please check the existing issues, including closed ones, and
+        reproduce on the latest release.
+
+        Never paste a live API token, a private key or an unredacted state file.
+        Security problems go through the security policy, not here.
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Release tag or commit of the component, plus Terraform version if relevant.
+      placeholder: terraform-provider-edgecenter v0.14.7, Terraform 1.9.5
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you observed, including the exact error message.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: Minimal configuration or program, and the commands you ran. Remove credentials.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Output
+      description: Plan or apply output, or SDK error. Set TF_LOG=DEBUG for the provider if it helps.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, architecture, Go version if you build from source.
+      placeholder: macOS 15 arm64, go 1.26
+    validations:
+      required: false

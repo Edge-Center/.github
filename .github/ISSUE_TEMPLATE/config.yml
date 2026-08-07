@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/Edge-Center/.github/blob/main/SECURITY.md
+    about: Never report a security problem in a public issue. Follow the security policy.
+  - name: EdgeCenter platform, account or billing
+    url: https://edgecenter.ru/knowledge-base
+    about: Questions about the platform itself rather than the code in this organization.
+  - name: Terraform provider reference
+    url: https://registry.terraform.io/providers/Edge-Center/edgecenter/latest/docs
+    about: Documentation for every resource and data source.
+  - name: API reference
+    url: https://apidocs.edgecenter.ru
+    about: The endpoints these SDKs wrap.
