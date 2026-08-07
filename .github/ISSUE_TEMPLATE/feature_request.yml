@@ -1,0 +1,43 @@
+name: Feature request
+description: Propose a new resource, endpoint or capability
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem before the solution. Knowing what you are trying to
+        achieve often changes what gets built.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do
+      description: The use case, and what stops you today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: How it would look. For the Terraform provider, sketch the configuration.
+      render: hcl
+    validations:
+      required: false
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround
+      description: What you do instead right now, if anything.
+    validations:
+      required: false
+
+  - type: input
+    id: api
+    attributes:
+      label: API support
+      description: Link to the endpoint in the API reference, if the platform already exposes it.
+      placeholder: https://apidocs.edgecenter.ru/...
+    validations:
+      required: false
