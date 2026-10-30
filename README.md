@@ -18,3 +18,8 @@ only fill gaps.
 
 Developer documentation for the organization lives in
 [edgecenter-docs](https://github.com/Edge-Center/edgecenter-docs).
+
+## License
+
+This project is licensed under the Apache License 2.0, see [LICENSE](LICENSE).
+Copyright (c) 2026 LLC "EDGECENTER"
